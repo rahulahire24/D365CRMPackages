@@ -81,25 +81,5 @@
     <RootComponents>
       <RootComponent type="1" schemaName="contact" behavior="1" />
     </RootComponents>
-    <MissingDependencies>
-      <MissingDependency>
-        <Required type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_LeadManagement (9.0.4.0066)">
-          <package>msdynce_LeadManagementAnchor (9.0.23043.10001)</package>
-        </Required>
-        <Dependent type="60" displayName="Contact for Interactive experience" parentDisplayName="Contact" id="{cc760212-3eab-4009-b5c3-ea9cf6f3e141}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="60" displayName="contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{707fc57b-c5e6-471b-a180-e37ed28a38e2}">
-          <package>msdynce_AppCommonAnchor (9.0.23043.10005)</package>
-        </Required>
-        <Dependent type="60" displayName="Contact for Interactive experience" parentDisplayName="Contact" id="{cc760212-3eab-4009-b5c3-ea9cf6f3e141}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="60" displayName="Contact for Interactive experience" parentDisplayName="Contact" solution="msdynce_LeadManagement (9.0.4.0066)" id="{cc760212-3eab-4009-b5c3-ea9cf6f3e141}">
-          <package>msdynce_LeadManagementAnchor (9.0.23043.10001)</package>
-        </Required>
-        <Dependent type="60" displayName="Contact for Interactive experience" parentDisplayName="Contact" id="{cc760212-3eab-4009-b5c3-ea9cf6f3e141}" />
-      </MissingDependency>
-    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>
