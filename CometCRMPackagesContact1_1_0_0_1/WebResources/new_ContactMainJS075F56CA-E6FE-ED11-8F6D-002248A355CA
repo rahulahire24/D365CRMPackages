@@ -1,0 +1,6 @@
+function Test(executionContext)
+{
+	var formContext = executionContext.getFormContext;
+	
+	alert('Hi');
+}

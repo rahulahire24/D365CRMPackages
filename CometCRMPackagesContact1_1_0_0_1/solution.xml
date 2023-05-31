@@ -1,4 +1,4 @@
-<ImportExportXml version="9.2.23044.224" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.23051.240" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>CometCRMPackagesContact1</UniqueName>
     <LocalizedNames>
@@ -80,6 +80,7 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="contact" behavior="1" />
+      <RootComponent type="61" schemaName="new_ContactMainJS" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>

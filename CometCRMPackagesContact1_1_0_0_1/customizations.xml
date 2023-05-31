@@ -77,7 +77,7 @@
           <IsVisibleInMobileClient>1</IsVisibleInMobileClient>
           <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
           <IsOfflineInMobileClient>1</IsOfflineInMobileClient>
-          <DaysSinceRecordLastModified>0</DaysSinceRecordLastModified>
+          <DaysSinceRecordLastModified>10</DaysSinceRecordLastModified>
           <MobileOfflineFilters>
 		&lt;fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false"&gt;
 			&lt;entity name="contact"&gt;
@@ -86,7 +86,7 @@
 				&lt;/filter&gt;
 			&lt;/entity&gt;
 		&lt;/fetch&gt;
-	</MobileOfflineFilters>
+		</MobileOfflineFilters>
           <IsMapiGridEnabled>1</IsMapiGridEnabled>
           <IsReadingPaneEnabled>1</IsReadingPaneEnabled>
           <IsQuickCreateEnabled>1</IsQuickCreateEnabled>
@@ -125,6 +125,22 @@
   <EntityRelationships />
   <OrganizationSettings />
   <optionsets />
+  <WebResources>
+    <WebResource>
+      <WebResourceId>{075f56ca-e6fe-ed11-8f6d-002248a355ca}</WebResourceId>
+      <Name>new_ContactMainJS</Name>
+      <DisplayName>ContactMainJS</DisplayName>
+      <WebResourceType>3</WebResourceType>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+      <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+      <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+      <IsCustomizable>1</IsCustomizable>
+      <CanBeDeleted>1</CanBeDeleted>
+      <IsHidden>0</IsHidden>
+      <FileName>/WebResources/new_ContactMainJS075F56CA-E6FE-ED11-8F6D-002248A355CA</FileName>
+    </WebResource>
+  </WebResources>
   <CustomControls />
   <EntityDataProviders />
   <Languages>
